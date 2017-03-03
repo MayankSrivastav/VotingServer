@@ -1,5 +1,7 @@
 import {List, Map} from 'immutable';
 
+// Initial state when there is no
+// state defined for reducer
 export const INITIAL_STATE = Map();
 
 function getWinners(vote) {
