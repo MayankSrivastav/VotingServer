@@ -15,4 +15,5 @@ store.dispatch({
     entries: require('../entries.json')
 });
 
+// Dispatch NEXT action
 store.dispatch({type: 'NEXT'});
