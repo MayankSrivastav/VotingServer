@@ -11,5 +11,8 @@ export default function reducer(state = INITIAL_STATE, action) {
             return state.update('vote',
                                 voteState => vote(voteState, action.entry));
     }
+
+    // return the state if no
+    // action is matched
     return state;
 }
