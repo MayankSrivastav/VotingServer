@@ -5,6 +5,7 @@ import {expect} from 'chai';
 
 import {setEntries, next, vote} from '../src/core';
 
+// Test suit for application logic
 describe('application logic', () => {
     describe('setEntries', () => {
         it('adds the entries to state', () => {
