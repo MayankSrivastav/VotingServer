@@ -1,3 +1,5 @@
+// Main tests for core functionalities
+
 import {List, Map} from 'immutable';
 import {expect} from 'chai';
 
