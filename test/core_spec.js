@@ -7,6 +7,7 @@ import {setEntries, next, vote} from '../src/core';
 
 // Test suit for application logic
 describe('application logic', () => {
+    // Test for setEntries action
     describe('setEntries', () => {
         it('adds the entries to state', () => {
             const state = Map();
