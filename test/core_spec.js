@@ -27,6 +27,8 @@ describe('application logic', () => {
             });
 
             const nextState = next(state);
+
+            // test if nextState is equa to expected value
             expect(nextState).to.equal(Map({
                 vote: Map({
                     pair: List.of('Trainspotting', '28 Days Later')
