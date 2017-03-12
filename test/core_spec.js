@@ -19,6 +19,7 @@ describe('application logic', () => {
         });
     });
 
+    // Test for NEXT state action
     describe('next', () => {
         it('takes the next two entries under vote', () => {
             const state = Map({
