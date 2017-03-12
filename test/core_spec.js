@@ -38,6 +38,7 @@ describe('application logic', () => {
         });
     });
 
+    // Test for VOTE state action
     describe('vote', () => {
         it('creates a tally for the voted entry', () => {
             const state = Map({                
