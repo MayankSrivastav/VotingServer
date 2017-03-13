@@ -40,6 +40,8 @@ describe('application logic', () => {
 
     // Test for VOTE state action
     describe('vote', () => {
+        // Test to check if tally is created 
+        // for a voted entry
         it('creates a tally for the voted entry', () => {
             const state = Map({                
                 pair: List.of('Trainspotting', '28 Days Later')                
