@@ -53,6 +53,8 @@ describe('application logic', () => {
             }));
         });
 
+        // Test to check if existing tally is added
+        // for voted entry
         it('adds to existing tally for the voted entry', () => {
             const state = Map({                
                 pair: List.of('Trainspotting', '28 Days Later'),
