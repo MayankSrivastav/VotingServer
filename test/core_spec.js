@@ -88,7 +88,7 @@ describe('application logic', () => {
             });
 
             const nextState = next(state);
-            expect(nextState).to.equal(Map({
+            expect(nextState).to.equal(Map({    // check if nextState is equals to expected state
                 vote: Map({
                     pair: List.of('Sunshine', 'Millions')
                 }),
