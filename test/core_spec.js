@@ -96,6 +96,8 @@ describe('application logic', () => {
             }));
         });
 
+        // Test to check if tied votes are put back
+        // into the entries
         it('puts both from tied vote back to entries', () => {
             const state = Map({
                 vote: Map({
