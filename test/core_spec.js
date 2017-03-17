@@ -119,6 +119,8 @@ describe('application logic', () => {
             }));
         });
 
+        // Test to check if winner is marked if only
+        // one entry is left
         it('marks winner when just one entry left', () => {
             const state = Map({
                 vote: Map({
