@@ -133,6 +133,7 @@ describe('application logic', () => {
                 entries: List()
             });
 
+            // check if nextState is equals to expected state
             const nextState = next(state);
             expect(nextState).to.equal(Map({
                 winner: 'Trainspotting'
