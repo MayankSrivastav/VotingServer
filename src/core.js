@@ -6,6 +6,8 @@ import {List, Map} from 'immutable';
 // state defined for reducer
 export const INITIAL_STATE = Map();
 
+// Function to get the winners from 
+// the current vote
 function getWinners(vote) {
     if (!vote) return [];
     const [a, b] = vote.get('pair');
