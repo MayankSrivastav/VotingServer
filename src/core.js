@@ -1,3 +1,5 @@
+// Main functions for core functionalities
+
 import {List, Map} from 'immutable';
 
 // Initial state when there is no
