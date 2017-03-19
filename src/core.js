@@ -19,6 +19,7 @@ function getWinners(vote) {
     return [a, b];
 }
 
+// function to set state in the entries
 export function setEntries(state, entries) {
     return state.set('entries', List(entries));
 }
