@@ -24,6 +24,7 @@ export function setEntries(state, entries) {
     return state.set('entries', List(entries));
 }
 
+// Function to calculate the next state
 export function next(state) {
     const entries = state.get('entries')
                          .concat(getWinners(state.get('vote')));
