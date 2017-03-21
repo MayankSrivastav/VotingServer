@@ -26,6 +26,8 @@ export function setEntries(state, entries) {
 
 // Function to calculate the next state
 export function next(state) {
+    // get the winner based on vote and concatinate
+    // it to the entries
     const entries = state.get('entries')
                          .concat(getWinners(state.get('vote')));
     if (entries.size === 1) {
