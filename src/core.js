@@ -30,6 +30,8 @@ export function next(state) {
     // it to the entries
     const entries = state.get('entries')
                          .concat(getWinners(state.get('vote')));
+
+    // Return winner, if only one entry
     if (entries.size === 1) {
         return state.remove('vote')
                     .remove('entries')
