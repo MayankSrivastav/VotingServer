@@ -37,6 +37,7 @@ export function next(state) {
                     .remove('entries')
                     .set('winner', entries.first());
     } else {
+        // Otherwise return the merged state
         return state.merge({
             vote: Map({pair: entries.take(2)}),
             entries: entries.skip(2)
