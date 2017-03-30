@@ -49,6 +49,7 @@ export function next(state) {
     }
 }
 
+// Function to update vote
 export function vote(voteState, entry) {
     return voteState.updateIn(
         ['tally', entry],
