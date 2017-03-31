@@ -1,3 +1,5 @@
+// Spec file for immutablity tests
+
 import { expect } from 'chai';
 import { List, Map } from 'immutable';
 
